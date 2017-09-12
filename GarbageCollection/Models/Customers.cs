@@ -27,5 +27,11 @@ namespace GarbageCollection.Models
 
         [Display(Name = "Cancel Service")]
         public bool CancelService { get; set; }
+
+        [Display(Name = "Extra PickUp")]
+        public string ExtraPickup { get; set; }
+
+        [Display(Name = "No Pickup")]
+        public string NoPickup { get; set; }
     }
 }

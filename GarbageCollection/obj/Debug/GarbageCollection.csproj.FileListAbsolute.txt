@@ -84,3 +84,4 @@ C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug
 C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug\GarbageCollection.Migrations.Customers.resources
 C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug\GarbageCollection.Migrations.Employees.resources
 C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug\GarbageCollection.Migrations.CustomerandEmployee.resources
+C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug\GarbageCollection.Migrations.alteredcustomertable.resources
