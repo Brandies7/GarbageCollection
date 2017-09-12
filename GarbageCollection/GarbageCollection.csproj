@@ -205,8 +205,20 @@
     <Compile Include="Migrations\201709121904154_first migration.Designer.cs">
       <DependentUpon>201709121904154_first migration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709121928265_Customers.cs" />
+    <Compile Include="Migrations\201709121928265_Customers.Designer.cs">
+      <DependentUpon>201709121928265_Customers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709121930530_Employees.cs" />
+    <Compile Include="Migrations\201709121930530_Employees.Designer.cs">
+      <DependentUpon>201709121930530_Employees.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Customers.cs" />
+    <Compile Include="Models\CustomersController.cs" />
+    <Compile Include="Models\Employees.cs" />
+    <Compile Include="Models\EmployeesController.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -270,6 +282,16 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Employees\Create.cshtml" />
+    <Content Include="Views\Employees\Delete.cshtml" />
+    <Content Include="Views\Employees\Details.cshtml" />
+    <Content Include="Views\Employees\Edit.cshtml" />
+    <Content Include="Views\Employees\Index.cshtml" />
+    <Content Include="Views\Customers\Create.cshtml" />
+    <Content Include="Views\Customers\Delete.cshtml" />
+    <Content Include="Views\Customers\Details.cshtml" />
+    <Content Include="Views\Customers\Edit.cshtml" />
+    <Content Include="Views\Customers\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -285,6 +307,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201709121904154_first migration.resx">
       <DependentUpon>201709121904154_first migration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709121928265_Customers.resx">
+      <DependentUpon>201709121928265_Customers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709121930530_Employees.resx">
+      <DependentUpon>201709121930530_Employees.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
