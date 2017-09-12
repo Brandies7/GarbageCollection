@@ -17,9 +17,11 @@ namespace GarbageCollection.Controllers
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
+        private ApplicationDbContext context;
 
         public AccountController()
         {
+            context = new ApplicationDbContext();
         }
 
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
@@ -139,6 +141,8 @@ namespace GarbageCollection.Controllers
         [AllowAnonymous]
         public ActionResult Register()
         {
+            ViewBag.Name = new SelectList(context.Roles.Where(u => !u.Name.Contains("Empoyee")).ToList(), "Name", "Name");
+            //ViewBag.Name = new SelectList(context.Roles.Where(u => !u.Name.Contains("Customer")).ToList(), "Name", "Name");
             return View();
         }
 

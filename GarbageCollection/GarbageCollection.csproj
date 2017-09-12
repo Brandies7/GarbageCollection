@@ -213,6 +213,10 @@
     <Compile Include="Migrations\201709121930530_Employees.Designer.cs">
       <DependentUpon>201709121930530_Employees.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709121952287_Customer and Employee.cs" />
+    <Compile Include="Migrations\201709121952287_Customer and Employee.Designer.cs">
+      <DependentUpon>201709121952287_Customer and Employee.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customers.cs" />
@@ -313,6 +317,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201709121930530_Employees.resx">
       <DependentUpon>201709121930530_Employees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709121952287_Customer and Employee.resx">
+      <DependentUpon>201709121952287_Customer and Employee.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
