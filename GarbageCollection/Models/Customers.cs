@@ -22,6 +22,9 @@ namespace GarbageCollection.Models
         [Display(Name = "Zip Code")]
         public int ZipCode { get; set; }
 
+        [Display(Name = "Payment Option")]
+        public string PaymentOption { get; set; }
+
         [Display(Name = "Desired Pick Up Day")]
         public string PickupDay { get; set; }
 
@@ -33,5 +36,8 @@ namespace GarbageCollection.Models
 
         [Display(Name = "No Pickup")]
         public string NoPickup { get; set; }
+
+        [Display(Name = "Change Pickup Day")]
+        public string ChangePickup { get; set; }
     }
 }
