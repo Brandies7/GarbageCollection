@@ -1,3 +1,5 @@
+using Microsoft.AspNet.Identity;
+
 namespace GarbageCollection.Migrations
 {
     using System;
@@ -20,7 +22,7 @@ namespace GarbageCollection.Migrations
                         CancelService = c.Boolean(nullable: false),
                     })
                 .PrimaryKey(t => t.Id);
-            
+                
             CreateTable(
                 "dbo.Employees",
                 c => new
@@ -30,6 +32,7 @@ namespace GarbageCollection.Migrations
                         LastName = c.String(),
                         EmployeeId = c.Int(nullable: false),
                         RouteNumber = c.Int(nullable: false),
+
                     })
                 .PrimaryKey(t => t.Id);
             
