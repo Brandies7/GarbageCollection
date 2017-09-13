@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.Ajax.Utilities;
 
 namespace GarbageCollection.Models
 {
@@ -49,9 +50,9 @@ namespace GarbageCollection.Models
     public class LoginViewModel
     {
         [Required]
-        [Display(Name = "Email")]
+        [Display(Name = "User Name")]
         [EmailAddress]
-        public string Email { get; set; }
+        public string UserName { get; set; }
 
         [Required]
         [DataType(DataType.Password)]
@@ -67,8 +68,7 @@ namespace GarbageCollection.Models
         [Required]
         [Display(Name = "UserRoles")]
         public string UserRoles { get; set; }
-
-        [Required]
+        
         [Display(Name = "User Name")]
         public string UserName { get; set; }
 

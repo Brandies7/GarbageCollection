@@ -227,6 +227,14 @@
     <Compile Include="Migrations\201709122142550_altered customer table again.Designer.cs">
       <DependentUpon>201709122142550_altered customer table again.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709130049125_added employee foreign key.cs" />
+    <Compile Include="Migrations\201709130049125_added employee foreign key.Designer.cs">
+      <DependentUpon>201709130049125_added employee foreign key.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709131210466_altered customer table 3.cs" />
+    <Compile Include="Migrations\201709131210466_altered customer table 3.Designer.cs">
+      <DependentUpon>201709131210466_altered customer table 3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customers.cs" />
@@ -336,6 +344,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201709122142550_altered customer table again.resx">
       <DependentUpon>201709122142550_altered customer table again.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709130049125_added employee foreign key.resx">
+      <DependentUpon>201709130049125_added employee foreign key.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709131210466_altered customer table 3.resx">
+      <DependentUpon>201709131210466_altered customer table 3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

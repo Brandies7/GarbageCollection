@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
@@ -40,4 +41,6 @@ namespace GarbageCollection.Models
         [Display(Name = "Change Pickup Day")]
         public string ChangePickup { get; set; }
     }
+
+
 }
