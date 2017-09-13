@@ -38,6 +38,7 @@ namespace GarbageCollection.Controllers
         // GET: PickupDays/Create
         public ActionResult Create()
         {
+            ViewBag.Name = new SelectList(db.PickupDays.Where(u => u.Day != " ").ToList(), "Name");
             return View();
         }
 
@@ -54,6 +55,7 @@ namespace GarbageCollection.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
+            ViewBag.Name = new SelectList(db.PickupDays.Where(u => u.Day != " ").ToList(), "Name");
 
             return View(pickupDay);
         }

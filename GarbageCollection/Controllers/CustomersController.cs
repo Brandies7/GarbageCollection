@@ -38,6 +38,7 @@ namespace GarbageCollection.Controllers
         // GET: Customers/Create
         public ActionResult Create()
         {
+           
             return View();
         }
 
@@ -46,7 +47,7 @@ namespace GarbageCollection.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Address,City,State,ZipCode,PickupDay,CancelService")] Customers customers)
+        public ActionResult Create([Bind(Include = "Id,Address,City,State,ZipCode,PaymentOption,PickupDay,CancelService,ExtraPickup,NoPickup,ChangePickup")] Customers customers)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +79,7 @@ namespace GarbageCollection.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Address,City,State,ZipCode,PickupDay,CancelService")] Customers customers)
+        public ActionResult Edit([Bind(Include = "Id,Address,City,State,ZipCode,PaymentOption,PickupDay,CancelService,ExtraPickup,NoPickup,ChangePickup")] Customers customers)
         {
             if (ModelState.IsValid)
             {

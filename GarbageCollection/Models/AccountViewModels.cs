@@ -50,9 +50,9 @@ namespace GarbageCollection.Models
     public class LoginViewModel
     {
         [Required]
-        [Display(Name = "User Name")]
+        [Display(Name = "Email")]
         [EmailAddress]
-        public string UserName { get; set; }
+        public string Email { get; set; }
 
         [Required]
         [DataType(DataType.Password)]
@@ -75,10 +75,7 @@ namespace GarbageCollection.Models
         [Display(Name = "UserRoles")]
         public string UserRoles { get; set; }
         
-        [Required]
-        [Display(Name = "Create User Name")]
-        public string UserName { get; set; }
-
+        
         [Required]
         [EmailAddress]
         [Display(Name = "Email")]

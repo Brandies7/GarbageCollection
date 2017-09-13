@@ -24,10 +24,22 @@
             @Html.DisplayNameFor(model => model.ZipCode)
         </th>
         <th>
+            @Html.DisplayNameFor(model => model.PaymentOption)
+        </th>
+        <th>
             @Html.DisplayNameFor(model => model.PickupDay)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.CancelService)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ExtraPickup)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NoPickup)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ChangePickup)
         </th>
         <th></th>
     </tr>
@@ -47,10 +59,22 @@
             @Html.DisplayFor(modelItem => item.ZipCode)
         </td>
         <td>
+            @Html.DisplayFor(modelItem => item.PaymentOption)
+        </td>
+        <td>
             @Html.DisplayFor(modelItem => item.PickupDay)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.CancelService)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ExtraPickup)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NoPickup)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ChangePickup)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
