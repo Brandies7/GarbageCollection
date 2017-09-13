@@ -34,6 +34,7 @@ namespace GarbageCollection.Models
 
         public DbSet<Customers> Customers { get; set; }
         public DbSet<PickupDay> PickupDays { get; set; }
+        
        
 
         

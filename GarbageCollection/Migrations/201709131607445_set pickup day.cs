@@ -1,0 +1,27 @@
+namespace GarbageCollection.Migrations
+{
+    using System;
+    using System.Data.Entity.Migrations;
+    
+    public partial class setpickupday : DbMigration
+    {
+        public override void Up()
+        {
+            CreateTable(
+                "dbo.PickupDays",
+                c => new
+                    {
+                        Id = c.Int(nullable: false, identity: true),
+                        Day = c.String(),
+                        CustomerId = c.String(),
+                    })
+                .PrimaryKey(t => t.Id);
+            
+        }
+        
+        public override void Down()
+        {
+            DropTable("dbo.PickupDays");
+        }
+    }
+}

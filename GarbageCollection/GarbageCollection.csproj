@@ -236,13 +236,13 @@
     <Compile Include="Migrations\201709131210466_altered customer table 3.Designer.cs">
       <DependentUpon>201709131210466_altered customer table 3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201709131538269_Pickup Day.cs" />
-    <Compile Include="Migrations\201709131538269_Pickup Day.Designer.cs">
-      <DependentUpon>201709131538269_Pickup Day.cs</DependentUpon>
+    <Compile Include="Migrations\201709131603591_Pickup Day.cs" />
+    <Compile Include="Migrations\201709131603591_Pickup Day.Designer.cs">
+      <DependentUpon>201709131603591_Pickup Day.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201709131556315_set pickup day.cs" />
-    <Compile Include="Migrations\201709131556315_set pickup day.Designer.cs">
-      <DependentUpon>201709131556315_set pickup day.cs</DependentUpon>
+    <Compile Include="Migrations\201709131607445_set pickup day.cs" />
+    <Compile Include="Migrations\201709131607445_set pickup day.Designer.cs">
+      <DependentUpon>201709131607445_set pickup day.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -366,11 +366,11 @@
     <EmbeddedResource Include="Migrations\201709131210466_altered customer table 3.resx">
       <DependentUpon>201709131210466_altered customer table 3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201709131538269_Pickup Day.resx">
-      <DependentUpon>201709131538269_Pickup Day.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201709131603591_Pickup Day.resx">
+      <DependentUpon>201709131603591_Pickup Day.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201709131556315_set pickup day.resx">
-      <DependentUpon>201709131556315_set pickup day.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201709131607445_set pickup day.resx">
+      <DependentUpon>201709131607445_set pickup day.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
