@@ -10,9 +10,8 @@ namespace GarbageCollection.Models
     {
         public int Id { get; set; }
 
+        [Required]
         [Display(Name = "Pickup Day")]
         public string Day { get; set; }
-
-        public string CustomerId { get; set; }
     }
 }

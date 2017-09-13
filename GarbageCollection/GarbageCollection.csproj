@@ -200,7 +200,6 @@
     <Compile Include="Controllers\EmployeesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
-    <Compile Include="Controllers\PickupDaysController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -243,6 +242,34 @@
     <Compile Include="Migrations\201709131607445_set pickup day.cs" />
     <Compile Include="Migrations\201709131607445_set pickup day.Designer.cs">
       <DependentUpon>201709131607445_set pickup day.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709131946060_added foreign key.cs" />
+    <Compile Include="Migrations\201709131946060_added foreign key.Designer.cs">
+      <DependentUpon>201709131946060_added foreign key.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709132003381_deleted foreign key.cs" />
+    <Compile Include="Migrations\201709132003381_deleted foreign key.Designer.cs">
+      <DependentUpon>201709132003381_deleted foreign key.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709132018017_deleted pickup day table.cs" />
+    <Compile Include="Migrations\201709132018017_deleted pickup day table.Designer.cs">
+      <DependentUpon>201709132018017_deleted pickup day table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709132036022_PickupDay1.cs" />
+    <Compile Include="Migrations\201709132036022_PickupDay1.Designer.cs">
+      <DependentUpon>201709132036022_PickupDay1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709132038013_PickupDays.cs" />
+    <Compile Include="Migrations\201709132038013_PickupDays.Designer.cs">
+      <DependentUpon>201709132038013_PickupDays.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709132044428_added pickup day column.cs" />
+    <Compile Include="Migrations\201709132044428_added pickup day column.Designer.cs">
+      <DependentUpon>201709132044428_added pickup day column.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709132046328_deleted pickupDayId.cs" />
+    <Compile Include="Migrations\201709132046328_deleted pickupDayId.Designer.cs">
+      <DependentUpon>201709132046328_deleted pickupDayId.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -324,11 +351,6 @@
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Shared\_EmployeeLayout.cshtml" />
     <Content Include="Views\Shared\_CustomerLayout.cshtml" />
-    <Content Include="Views\PickupDays\Create.cshtml" />
-    <Content Include="Views\PickupDays\Delete.cshtml" />
-    <Content Include="Views\PickupDays\Details.cshtml" />
-    <Content Include="Views\PickupDays\Edit.cshtml" />
-    <Content Include="Views\PickupDays\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -371,6 +393,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201709131607445_set pickup day.resx">
       <DependentUpon>201709131607445_set pickup day.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709131946060_added foreign key.resx">
+      <DependentUpon>201709131946060_added foreign key.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709132003381_deleted foreign key.resx">
+      <DependentUpon>201709132003381_deleted foreign key.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709132018017_deleted pickup day table.resx">
+      <DependentUpon>201709132018017_deleted pickup day table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709132036022_PickupDay1.resx">
+      <DependentUpon>201709132036022_PickupDay1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709132038013_PickupDays.resx">
+      <DependentUpon>201709132038013_PickupDays.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709132044428_added pickup day column.resx">
+      <DependentUpon>201709132044428_added pickup day column.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709132046328_deleted pickupDayId.resx">
+      <DependentUpon>201709132046328_deleted pickupDayId.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

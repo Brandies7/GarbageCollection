@@ -27,7 +27,9 @@ namespace GarbageCollection.Models
         public string PaymentOption { get; set; }
 
         [Display(Name = "Desired Pick Up Day")]
+        
         public string PickupDay { get; set; }
+        
 
         [Display(Name = "Cancel Service")]
         public bool CancelService { get; set; }
@@ -40,6 +42,13 @@ namespace GarbageCollection.Models
 
         [Display(Name = "Change Pickup Day")]
         public string ChangePickup { get; set; }
+
+        [Required]
+        public string PickupDayId { get; set; }
+
+        
+
+        
     }
 
 

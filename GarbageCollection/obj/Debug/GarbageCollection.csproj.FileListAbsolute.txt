@@ -90,3 +90,10 @@ C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug
 C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug\GarbageCollection.Migrations.alteredcustomertable3.resources
 C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug\GarbageCollection.Migrations.PickupDay.resources
 C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug\GarbageCollection.Migrations.setpickupday.resources
+C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug\GarbageCollection.Migrations.addedforeignkey.resources
+C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug\GarbageCollection.Migrations.deletedforeignkey.resources
+C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug\GarbageCollection.Migrations.deletedpickupdaytable.resources
+C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug\GarbageCollection.Migrations.PickupDay1.resources
+C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug\GarbageCollection.Migrations.PickupDays.resources
+C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug\GarbageCollection.Migrations.addedpickupdaycolumn.resources
+C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug\GarbageCollection.Migrations.deletedpickupDayId.resources
