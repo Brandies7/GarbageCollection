@@ -1,3 +1,17 @@
-﻿@{
-    Layout = "~/Views/Shared/_Layout.cshtml";
+﻿@using System.Web.UI.WebControls
+@using Microsoft.AspNet.Identity
+@{
+    if (this.User.IsInRole("Customer"))
+    {
+        Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+    }
+    else if (this.User.IsInRole("Employee"))
+    {
+        Layout = "~/Views/Shared/_EmployeeLayout.cshtml";
+    }
+    else
+    {
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
 }
