@@ -88,3 +88,4 @@ C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug
 C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug\GarbageCollection.Migrations.alteredcustomertableagain.resources
 C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug\GarbageCollection.Migrations.addedemployeeforeignkey.resources
 C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug\GarbageCollection.Migrations.alteredcustomertable3.resources
+C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug\GarbageCollection.Migrations.PickupDay.resources
