@@ -69,7 +69,8 @@ namespace GarbageCollection.Models
         [Display(Name = "UserRoles")]
         public string UserRoles { get; set; }
         
-        [Display(Name = "User Name")]
+        [Required]
+        [Display(Name = "Create User Name")]
         public string UserName { get; set; }
 
         [Required]
