@@ -33,6 +33,7 @@ namespace GarbageCollection.Models
         public DbSet<Employees> Employees { get; set; }
 
         public DbSet<Customers> Customers { get; set; }
+        public DbSet<PickupDay> PickupDays { get; set; }
        
 
         

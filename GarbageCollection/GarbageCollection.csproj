@@ -240,6 +240,10 @@
     <Compile Include="Migrations\201709131538269_Pickup Day.Designer.cs">
       <DependentUpon>201709131538269_Pickup Day.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709131556315_set pickup day.cs" />
+    <Compile Include="Migrations\201709131556315_set pickup day.Designer.cs">
+      <DependentUpon>201709131556315_set pickup day.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customers.cs" />
@@ -364,6 +368,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201709131538269_Pickup Day.resx">
       <DependentUpon>201709131538269_Pickup Day.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709131556315_set pickup day.resx">
+      <DependentUpon>201709131556315_set pickup day.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
