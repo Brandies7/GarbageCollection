@@ -43,9 +43,8 @@ namespace GarbageCollection.Models
         [Display(Name = "Change Pickup Day")]
         public string ChangePickup { get; set; }
 
-        [Required]
-        public string PickupDayId { get; set; }
-
+        
+      
         
 
         
