@@ -1,5 +1,4 @@
-﻿@using GarbageCollection.Migrations
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -9,8 +8,7 @@
     @Scripts.Render("~/bundles/modernizr")
 
 </head>
-<body style = "background-image: url(http://www.springhilltn.org/images/CivicAlerts/1/Waste%20Management%20logo.jpg)">
-
+<body style="background-image: url(http://www.springhilltn.org/images/CivicAlerts/1/Waste%20Management%20logo.jpg)">
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -26,6 +24,7 @@
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
@@ -35,7 +34,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            @*<p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>*@
         </footer>
     </div>
 
