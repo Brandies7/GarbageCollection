@@ -101,3 +101,4 @@ C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug
 C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug\GarbageCollection.Migrations.addedpickupdayforeignkey.resources
 C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug\GarbageCollection.Migrations.testingforeignkey.resources
 C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug\GarbageCollection.Migrations.modifiedcustomermodel.resources
+C:\Users\adanb\Desktop\devCodeCamp\GarbageCollection\GarbageCollection\obj\Debug\GarbageCollection.Migrations.addedfirstnameandlastname.resources
